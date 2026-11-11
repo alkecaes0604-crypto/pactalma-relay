@@ -1,0 +1,11 @@
+{
+  "name": "pactalma-relay",
+  "version": "1.0.0",
+  "description": "Servidor de relevo de PactAlma: juntar jugadores por internet con un código de sala",
+  "main": "servidor.js",
+  "scripts": { "start": "node servidor.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": { "ws": "^8.18.0" }
+}
